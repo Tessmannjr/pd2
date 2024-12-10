@@ -1,0 +1,297 @@
+{
+  "empresas": [
+    {
+      "id": 1,
+      "razaosocial": "Polisul Agricola",
+      "cnpj": "12.345.678/0001-00"
+    }
+  ],
+  "filiais": [
+    {
+      "id": 1,
+      "title": "Pelotas"
+    },
+    {
+      "id": 2,
+      "title": "Dom Pedrito"
+    },
+    {
+      "id": 3,
+      "title": "Camaqua"
+    },
+    {
+      "title": "teste",
+      "cidade": "PELOTAS",
+      "id": 4
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "empresaId": 1,
+      "filialId": 1,
+      "nome": "admin",
+      "senha": 123456,
+      "email": "tessmannjr@gmail.com",
+      "level": 1
+    }
+  ],
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "Joao Assis",
+      "cpf": "123.456.789-00",
+      "telefone": "(53) 99999-9999",
+      "email": "joao@gmail.com",
+      "endereco": "Rua das Flores, 123",
+      "bairro": "Centro",
+      "cidade": "Pelotas",
+      "estado": "RS",
+      "cep": "96000-000"
+    },
+    {
+      "id": 2,
+      "nome": "Maria Silva",
+      "cpf": "987.654.321-00",
+      "telefone": "(53) 99999-9999",
+      "email": "maria@gmail.com",
+      "endereco": "Rua das Rosas, 123",
+      "bairro": "Centro",
+      "cidade": "Pelotas",
+      "estado": "RS",
+      "cep": "96000-000"
+    },
+    {
+      "id": 3,
+      "nome": "Pedro Santos",
+      "cpf": "456.789.123-00",
+      "telefone": "(53) 99999-9999",
+      "email": "pedro@gmail.com",
+      "endereco": "Rua das Margaridas, 123",
+      "bairro": "Centro",
+      "cidade": "Pelotas",
+      "estado": "RS",
+      "cep": "96000-000"
+    },
+    {
+      "title": "",
+      "cidade": "PELOTAS",
+      "nome": "LEONIDIO TESSMANN JUNIOR",
+      "cpf": "00000000",
+      "telefone": "5330269387",
+      "email": "tessmannjr@gmail.com",
+      "endereco": "Rua Jose Rizzolo 217",
+      "bairro": "teste",
+      "estado": "RS",
+      "cep": "96065760",
+      "id": 4
+    }
+  ],
+  "tipo": [
+    {
+      "id": 1,
+      "nome": "Trator"
+    },
+    {
+      "id": 2,
+      "nome": "Colheitadeira"
+    },
+    {
+      "id": 3,
+      "nome": "Plantadeira"
+    },
+    {
+      "id": 4,
+      "nome": "Pulverizador"
+    },
+    {
+      "id": 5,
+      "nome": "Implemento"
+    },
+    {
+      "nome": "teste",
+      "id": 6
+    }
+  ],
+  "modelos": [
+    {
+      "id": 1,
+      "tipoId": 1,
+      "title": "BH194"
+    },
+    {
+      "id": 2,
+      "tipoId": 1,
+      "title": "T250CVT"
+    },
+    {
+      "id": 3,
+      "tipoId": 2,
+      "title": "BC5600"
+    },
+    {
+      "id": 4,
+      "tipoId": 2,
+      "title": "BC6800"
+    },
+    {
+      "id": 5,
+      "tipoId": 3,
+      "title": "MOMENTUM24L"
+    },
+    {
+      "id": 6,
+      "tipoId": 3,
+      "title": "MOMENTUM30L"
+    }
+  ],
+  "vendedores": [
+    {
+      "id": 1,
+      "nome": "Junior Tessmann",
+      "filialId": 1
+    },
+    {
+      "id": 2,
+      "nome": "Pedrinho da Silva",
+      "filialId": 1
+    },
+    {
+      "id": 3,
+      "nome": "Marco Antonio",
+      "filialId": 1
+    }
+  ],
+  "contador": [
+    {
+      "id": 1,
+      "numero": 132
+    }
+  ],
+  "produtos": [
+    {
+      "disponivel": "Sim",
+      "pedidoNum": 0,
+      "filialId": [
+        "Pelotas"
+      ],
+      "tipoId": [
+        "Trator"
+      ],
+      "modeloId": [
+        "BH194"
+      ],
+      "aol": "6789",
+      "configuracao": "teste 2",
+      "preco": "100000",
+      "id": 1
+    },
+    {
+      "filialId": [
+        "Pelotas"
+      ],
+      "tipoId": [
+        "Colheitadeira"
+      ],
+      "modeloId": [
+        "BC6800"
+      ],
+      "aol": "1234",
+      "configuracao": "Plataforma drapper",
+      "preco": "1200000",
+      "disponivel": "Não",
+      "pedidoNum": 132,
+      "id": 2
+    },
+    {
+      "disponivel": "Sim",
+      "pedidoNum": 0,
+      "filialId": [
+        "Dom Pedrito"
+      ],
+      "tipoId": [
+        "Plantadeira"
+      ],
+      "modeloId": [
+        "MOMENTUM30L"
+      ],
+      "aol": "345",
+      "configuracao": "teste",
+      "preco": "200000",
+      "id": 3
+    },
+    {
+      "filialId": [
+        "Camaqua"
+      ],
+      "tipoId": [
+        "Trator"
+      ],
+      "modeloId": [
+        "T250CVT"
+      ],
+      "aol": "777",
+      "configuracao": "teste 2",
+      "preco": "123456",
+      "disponivel": "Não",
+      "pedidoNum": 131,
+      "id": 4
+    }
+  ],
+  "pedidos": [
+    {
+      "filialId": [
+        "Camaqua"
+      ],
+      "tipoId": [
+        "Trator"
+      ],
+      "modeloId": [
+        "T250CVT"
+      ],
+      "aol": "777",
+      "configuracao": "teste 2",
+      "precoC": "123456",
+      "precoV": "1234567",
+      "configuracaoV": "teste",
+      "pedidoNum": 131,
+      "vendedor": [
+        "Pedrinho da Silva"
+      ],
+      "filialV": [
+        "Pelotas"
+      ],
+      "clienteNome": [
+        "Pedro Santos"
+      ],
+      "id": 1
+    },
+    {
+      "filialId": [
+        "Pelotas"
+      ],
+      "tipoId": [
+        "Colheitadeira"
+      ],
+      "modeloId": [
+        "BC6800"
+      ],
+      "aol": "1234",
+      "configuracao": "Plataforma drapper",
+      "precoC": "1200000",
+      "precoV": "1000000",
+      "configuracaoV": "nd",
+      "pedidoNum": 132,
+      "vendedor": [
+        "Marco Antonio"
+      ],
+      "filialV": [
+        "Pelotas"
+      ],
+      "clienteNome": [
+        "LEONIDIO TESSMANN JUNIOR"
+      ],
+      "id": 2
+    }
+  ]
+}
